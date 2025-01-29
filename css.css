@@ -156,11 +156,11 @@ hr{
     width: auto;
   }
   
-.menubar li a:hover .delta_logo .d1 {
+.menubar li a:hover .d1 {
     display: none;
   }
   
-.menubar li a:hover .delta_logo .d2 {
+.menubar li a:hover .d2 {
     transform: translateY(-3px);
   }
 
