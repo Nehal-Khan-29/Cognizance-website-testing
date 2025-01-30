@@ -286,6 +286,25 @@ hr{
     width: 350px;
 }
 
+.knowus a {
+    display: inline-block; /* Ensures proper padding */
+    background-image: linear-gradient(90deg, rgb(240, 62, 246), rgb(62, 148, 246));
+    background-size: 200%; /* Makes the gradient larger than the button for animation */
+    background-position: left; /* Starting position of the gradient */
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid 2px white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-position 0.5s ease, transform 0.3s ease;
+}
+
+.knowus a:hover {
+    background-position: right; /* Move the gradient to the other side */
+    transform: scale(1.05); /* Slight scaling for hover effect */
+}
 
 /*=============================================================== Domain ===============================================================*/
 
@@ -301,6 +320,7 @@ hr{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    align-items: center;
 }
 
 .dl:nth-child(odd){
@@ -336,8 +356,6 @@ hr{
 }
 
 
-/*=============================================================== skill ===============================================================*/
-
 /*=============================================================== updates ===============================================================*/
 
 .wrapper {
@@ -345,33 +363,25 @@ hr{
   position: relative; 
 }
 
-.wrapper i {
-  top: 50%;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  font-size: 1.25rem;
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
-  transform: translateY(-50%);
-  transition: transform 0.1s linear;
-}
-
-.wrapper i:active{
-  transform: translateY(-50%) scale(0.85);
-}
-
-.wrapper i:first-child{
-  left: -22px;
-}
-
-.wrapper i:last-child{
-  right: -22px;
-}
+.arrows i {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 50px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+    margin-bottom: 20px;
+  }
+  
+  .arrows i:active{
+    transform: scale(0.85);
+  }
+  
+  .arrows{
+      justify-self: right;
+  }
 
 .wrapper .carousel{
   display: grid;
