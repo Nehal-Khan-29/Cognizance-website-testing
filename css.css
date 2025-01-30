@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Sofia&display=swap');
 
 /*================================================================ Html ================================================================*/
+/*
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/Font/Outfit/static/Outfit-Regular.ttf') format('ttf');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    text-decoration: none;
+    outline: none;
+}*/
+
 
 *{
     margin: 0;
@@ -107,8 +122,6 @@ hr{
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 25px;
-    padding-bottom: 10px;
     padding-right: 35px;
     text-align: right;
     transition: top 0.3s;
@@ -152,7 +165,7 @@ hr{
 }
 
 .delta_logo .d2 {
-    height: 16px;
+    height: 20px;
     width: auto;
   }
   
