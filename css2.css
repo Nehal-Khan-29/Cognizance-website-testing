@@ -1,7 +1,10 @@
 /*================================================================ Nav Bar ================================================================*/
 
 #menuToggle {
+    position: absolute;
     display: none;
+    margin-top: 10px;
+    margin-left: -10px;
 }
 
 #menuToggle:hover{
@@ -205,14 +208,7 @@
 @media only screen and (max-width: 500px){
 
     .wrapper{
-        margin-top: 50px;
-    }
-
-    .wrapper i:first-child{
-        left: -22px;
-    }
-    .wrapper i:last-child{
-        right: -22px;
+        margin-top: 5px;
     }
 
     .video-container iframe, .video-container img{

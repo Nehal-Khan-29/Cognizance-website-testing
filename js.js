@@ -177,7 +177,7 @@ function toggleMute() {
     icon2.classList.add('fa-volume-xmark');
   }
 }
-toggleMute();
+//toggleMute();
 
 //=========================================================== All transitions =========================================================
 
